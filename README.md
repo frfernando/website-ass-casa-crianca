@@ -2,7 +2,7 @@
   <h1>🧒 Portal Institucional · Associação Casa da Criança e do Adolescente</h1>
   <p><strong>Plataforma Socioeducativa Filantrópica · Captação Solidária, Projetos Comunitários & Transparência</strong></p>
   <p>
-    <a href="https://github.com/frfernando/website-ass-casa-crianca"><img src="https://img.shields.io/badge/Status-Produção-22c55e?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" /></a>
+    <a href="https://casa-da-crianca-regente-feijo.pages.dev"><img src="https://img.shields.io/badge/Site-Publicado-22c55e?style=for-the-badge&logo=cloudflarepages&logoColor=white" alt="Site publicado no Cloudflare Pages" /></a>
     <a href="https://github.com/frfernando/website-ass-casa-crianca"><img src="https://img.shields.io/badge/Causa-Educação_&_Infância-FF5F00?style=for-the-badge&logo=probot&logoColor=white" alt="Causa Social" /></a>
     <a href="https://github.com/frfernando/website-ass-casa-crianca"><img src="https://img.shields.io/badge/Governança-Marco_Legal_MROSC-3b82f6?style=for-the-badge&logo=civicrm&logoColor=white" alt="Governança" /></a>
   </p>
@@ -12,9 +12,9 @@
 
 ## 📌 Visão Geral do Estudo de Caso
 
-A **Associação Casa da Criança e do Adolescente de Regente Feijó - SP** é uma organização da sociedade civil que promove oficinas pedagógicas, esportivas, culturais e reforço socioeducativo para centenas de crianças e jovens no contraturno escolar.
+A **Associação Casa da Criança e do Adolescente de Regente Feijó - SP** tem um portal institucional com informações sobre sua atuação, o Serviço de Acolhimento em Família Acolhedora, canais de contato, formas de apoio e uma área de transparência.
 
-O projeto consistiu no desenvolvimento de uma **Sede Digital Acolhedora e Transparente**, com o objetivo de conectar a entidade a padrinhos e doadores, recrutar voluntários capacitados e cumprir com excelência as exigências de transparência perante o Tribunal de Contas do Estado (TCE-SP) e o Ministério Público.
+**Site publicado:** [casa-da-crianca-regente-feijo.pages.dev](https://casa-da-crianca-regente-feijo.pages.dev). O domínio próprio da associação não foi alterado.
 
 ---
 
@@ -28,12 +28,9 @@ O projeto consistiu no desenvolvimento de uma **Sede Digital Acolhedora e Transp
 
 ## 💡 O Porquê (A Estratégia de Engenharia)
 
-* **Por que Portal de Transparência Aberto (`transparencia.html`)?**  
-  Construção de uma área documental em estrita conformidade com a Lei de Acesso à Informação (Lei nº 12.527/11) e o MROSC (Lei nº 13.019/14), abrigando atas de posse, relatórios financeiros e demonstrativos de recursos públicos repassados.
-* **Por que Galeria de Projetos e Vídeos de Baixo Consumo?**  
-  Implementação de área multimídia com fotos das atividades e players de vídeo otimizados para rápida reprodução em smartphones sem consumir os dados móveis de famílias e voluntários.
-* **Por que Arquitetura Estática & Custo Zero de Infraestrutura?**  
-  Entidades filantrópicas precisam direcionar cada centavo para as crianças. O projeto foi projetado para rodar em arquitetura serverless estática, garantindo **R$ 0,00 de custo mensal de servidor**.
+* **Transparência:** A página apresenta referências a documentos institucionais. Os arquivos não estão anexados ao portal; a disponibilidade deve ser confirmada diretamente com a associação.
+* **Contato e interesse:** Os formulários preparam um rascunho de e-mail para a pessoa revisar e enviar. Não há endpoint/backend recebendo ou armazenando os dados.
+* **Hospedagem:** O site está publicado no Cloudflare Pages no projeto `casa-da-crianca-regente-feijo`. O status de produção no Pages não implica que o domínio próprio esteja configurado.
 
 ---
 
@@ -41,22 +38,19 @@ O projeto consistiu no desenvolvimento de uma **Sede Digital Acolhedora e Transp
 
 | Métrica / Critério | Cenário Anterior | Novo Portal Casa da Criança |
 |---|---|---|
-| **Credibilidade Institucional** | Ausência de domínio próprio | **Sede Digital oficial com prestação de contas pública** |
-| **Captação de Voluntários & Apoio** | Apenas boca a boca | **Formulários e canais diretos integrados ao WhatsApp** |
-| **Acesso a Editais e Parcerias** | Barreira técnica para empresas auditadas | **Certidões e balanços contábeis abertos para download** |
-| **Custo de Hospedagem Web** | Orçamentos caros de agências | **R$ 0,00 mensal (Zero Custo Recorrente)** |
+| Área | Estado atual |
+|---|---|
+| Site institucional | Publicado em `casa-da-crianca-regente-feijo.pages.dev` |
+| Formulários | Abrem rascunho `mailto:`; envio depende da pessoa e de seu aplicativo de e-mail |
+| Documentos | Referências na página; arquivos devem ser solicitados e sua disponibilidade confirmada |
+| Domínio próprio | Não conectado por este projeto |
 
 ---
 
 ## 🧰 Estrutura de Páginas & Stack Tecnológica
 
-* **Páginas Modulares:**
-  * `index.html`: Banner de acolhimento, números de impacto social e galeria de depoimentos.
-  * `projetos.html`: Detalhamento das oficinas socioeducativas (esporte, cultura, tecnologia e apoio psicossocial).
-  * `doar.html`: Chave PIX oficial, campanhas de apadrinhamento e contas bancárias institucionais.
-  * `transparencia.html`: Repositório público de demonstrativos de receitas/despesas e relatórios fiscais.
-  * `como-ajudar.html`, `quem-somos.html`, `contato.html`: Portais de voluntariado e localização.
-* **Stack:** `HTML5 Semântico`, `CSS3 Moderno`, `Design Mobile-First` e `JavaScript Vanilla Leve`.
+* **Páginas:** `index.html` reúne as rotas institucionais em uma interface de navegação client-side; `wireframe.html` é uma prévia marcada para não indexação.
+* **Stack:** `HTML5`, CSS e JavaScript no cliente, Tailwind Play CDN e publicação estática no Cloudflare Pages.
 
 ---
 
@@ -67,9 +61,12 @@ O projeto consistiu no desenvolvimento de uma **Sede Digital Acolhedora e Transp
 git clone https://github.com/frfernando/website-ass-casa-crianca.git
 cd website-ass-casa-crianca
 
-# 2. Iniciar servidor local
+# 2. Iniciar servidor local (na raiz clonada do repositório)
 python3 -m http.server 8080
 # Acesse no navegador: http://localhost:8080
+
+# Publicar no projeto Pages deste site
+npx wrangler pages deploy . --project-name=casa-da-crianca-regente-feijo --branch=main
 ```
 
 ---
