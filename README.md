@@ -18,11 +18,11 @@ A **Associação Casa da Criança e do Adolescente de Regente Feijó - SP** tem 
 
 ---
 
-## 🔍 O Antes (O Desafio)
+## 🎯 Objetivo do Portal
 
-* **Invisibilidade das Oficinas e Ações Diárias:** A entidade executava um trabalho pedagógico de alto impacto com teatro, judô, informática e música, mas não possuía uma vitrine digital pública para registrar e compartilhar essas conquistas com a sociedade.
-* **Falta de um Canal Digital de Doações Recorrentes:** Doadores locais e empresas parceiras encontravam dificuldades para saber como realizar contribuições financeiras ou doações de insumos escolares.
-* **Dificuldade na Divulgação de Chamamentos Públicos:** Dificuldade em centralizar a prestação de contas dos termos de colaboração celebrados com a administração municipal.
+* Reunir informações institucionais e sobre o Serviço de Acolhimento em Família Acolhedora.
+* Facilitar o acesso aos canais de contato e às formas de apoio.
+* Apresentar referências de transparência, sem sugerir que arquivos não anexados estejam disponíveis para download.
 
 ---
 
@@ -36,8 +36,6 @@ A **Associação Casa da Criança e do Adolescente de Regente Feijó - SP** tem 
 
 ## 🚀 O Depois (Resultados & Impacto)
 
-| Métrica / Critério | Cenário Anterior | Novo Portal Casa da Criança |
-|---|---|---|
 | Área | Estado atual |
 |---|---|
 | Site institucional | Publicado em `casa-da-crianca-regente-feijo.pages.dev` |
